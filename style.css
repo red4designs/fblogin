@@ -1,54 +1,136 @@
-*{
+* {
   margin: 0;
   font-family: Helvetica Nue, Helvetica, Arial, sans-serif;
 }
-.header{
+.header {
   background-color: #3b5998;
   width: 100%;
   height: 85px;
 }
 
-.logo{
+.logo {
   width: 50%;
   padding-top: 30px;
   float: left;
   margin-left: 80px;
 }
 
-.login{
+.login {
   width: 50px;
   float: left;
   margin-left: 100px;
   padding-top: 10px;
 }
 
-.logo-text{
+.logo-text {
   color: #fff;
   font-size: 40px;
   text-decoration: none;
   font-weight: bold;
   margin-left: 170px;
-  }
-  
-  .login-label{
-    color: #fff;
-    font-size: 12px;
-  }
-  
+}
 
-  .forgot{
-    text-decoration: none;
-    color: #9cb4d8;
-  }
+.login-label {
+  color: #fff;
+  font-size: 12px;
+}
 
-  .login-btn{
-    color: #fff;
-    background: #4267b2;
-    border-color: #29487d;
-    height: 22px;
-    cursor: pointer;
-  }
+.forgot {
+  text-decoration: none;
+  color: #9cb4d8;
+}
 
-  .login-btn:hover{
-    background: darkblue;
-  }
+.login-btn {
+  color: #fff;
+  background: #4267b2;
+  border-color: #29487d;
+  height: 22px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: darkblue;
+}
+
+.left-section {
+  float: left;
+  width: 50%;
+}
+
+.slogan {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 230px;
+  padding-top: 50px;
+  color: black;
+}
+.main-img {
+  height: 180px;
+  width: 570px;
+  padding-left: 200px;
+}
+
+.right-section {
+  float: left;
+  width: 50%;
+}
+
+.main-body {
+  background: linear-gradient(white, #d3d8e8);
+  width: 100%;
+  height: 600px;
+}
+.create-acc {
+  font-weight: 550;
+}
+
+.sign-up {
+  border-radius: 5px;
+  border-color: gainsboro;
+  padding: 5px;
+  margin: 5px;
+  height: 20px;
+}
+.new-account {
+  margin-left: 150px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.quick {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#email-tel {
+  width: 390px;
+  height: 25px;
+}
+
+#signup-form {
+  margin-top: 20px;
+}
+#first-name {
+  height: 25px;
+  width: 180px;
+}
+#surname {
+  height: 25px;
+  width: 180px;
+}
+#new-pass {
+  width: 390px;
+  height: 25px;
+}
+#birth {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 5px;
+  color: grey;
+  font-size: 15px;
+}
+select {
+  margin-top: 10px;
+  border-radius: 4px;
+}
